@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="@color/MedGrey">
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:text="&#8942;"
+        android:textSize="20sp"
+        android:textColor="@color/Blue"
+        android:id="@+id/text_option"
+        android:layout_gravity="right"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/crd_title"
+            android:text="text"
+            android:textSize="40dp"
+            android:textColor="@color/brightWhite"
+            android:textAlignment="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/LightWhite"
+                android:text="id:"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="text"
+                android:textColor="@color/LightWhite"
+                android:id="@+id/crd_id"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/LightWhite"
+                android:text="Password:"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="text"
+                android:textColor="@color/LightWhite"
+                android:id="@+id/crd_pass"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

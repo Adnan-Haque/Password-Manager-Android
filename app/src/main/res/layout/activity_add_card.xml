@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addCard"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@color/DarkGrey">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:textColor="@color/LightWhite"
+        android:textSize="40dp"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:id="@+id/et_title"
+        android:textColor="@color/LightWhite"
+        android:backgroundTint="@color/Blue" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id:"
+        android:textColor="@color/LightWhite"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/LightWhite"
+        android:backgroundTint="@color/Blue"
+        android:id="@+id/et_id" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textColor="@color/LightWhite"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/LightWhite"
+        android:backgroundTint="@color/Blue"
+        android:id="@+id/et_pass"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/et_add"
+        android:backgroundTint="@color/Blue"
+        android:textColor="@color/brightWhite"/>
+
+</LinearLayout>
